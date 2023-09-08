@@ -1,3 +1,39 @@
+ 	// // vero image hover code
+
+	//  const defaultImage = document.getElementById('default-image');
+	//  const hoverImage = document.getElementById('hover-image');
+	 
+	//  defaultImage.addEventListener('mouseover', () => {
+	// 	 hoverImage.style.opacity = '1';
+	// 	 defaultImage.style.opacity = '0';
+	//  });
+	 
+	//  hoverImage.addEventListener('mouseout', () => {
+	// 	 defaultImage.style.opacity = '1';
+	// 	 hoverImage.style.opacity = '0';
+	//  });
+
+
+	// function setupHover() {
+	// 	var image = document.querySelector('.image-container img');
+	// 	var trigger = document.querySelector('.image-container');
+	  
+	// 	// Mouse Enter (Hover In)
+	// 	trigger.addEventListener('mouseenter', function() {
+	// 	  image.src = 'veroWhite.png';
+	// 	});
+	  
+	// 	// Mouse Leave (Hover Out)
+	// 	trigger.addEventListener('mouseleave', function() {
+	// 	  image.src = 'vero.png';
+	// 	});
+	//   }
+	  
+	//   // Call the function to set up the hover behavior
+	//   document.addEventListener('DOMContentLoaded', function() {
+	// 	setupHover();
+	//   });
+
  AOS.init({
  	duration: 800,
  	easing: 'slide',
@@ -8,7 +44,8 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
-	
+
+
 
 	var siteMenuClone = function() {
 
